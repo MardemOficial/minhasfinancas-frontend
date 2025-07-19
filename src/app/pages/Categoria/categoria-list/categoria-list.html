@@ -1,0 +1,20 @@
+@if(listaDeCategorias.length === 0) {
+  <p>Nenhuma categoria cadastrada.</p>
+} @else {
+  <table>
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Descrição</th>
+      </tr>
+    </thead>
+    <tbody>
+      @for(categorias of listaDeCategorias; track categorias.id) {
+      <tr> 
+          <td>{{categorias.id}}</td>
+          <td>{{categorias.descricao_categoria}}</td>
+      </tr>
+      }
+    </tbody>
+  </table>
+}

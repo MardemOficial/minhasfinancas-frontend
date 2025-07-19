@@ -1,0 +1,9 @@
+:host {
+    background: #fff;
+    width: 100%;
+    height: 10%;
+    font-family: var(--default-font);
+    box-shadow: 0 0 1px;
+    display: flex;
+    align-items: end;
+}

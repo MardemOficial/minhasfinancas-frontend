@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --default-font: 'Roboto', sans-serif;
+    --primary-color: #2563EB;
+    --secondary-color: #BFDBFE;
+    --background-color: #F9FAFB;
+    --default-font-color: #FFF;
+    --primary-font-color: #111827;
+    --secondary-font-color: #6B7280;
+    background-color: var(--background-color);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}

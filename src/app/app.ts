@@ -1,12 +1,13 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { MenuComponent } from './components/menu/menu';
+import { ContentComponent } from './components/content/content';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [MenuComponent, ContentComponent],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
 export class App {
-  protected title = 'minhasfinancas-frontend';
+  protected title: string = 'minhasfinancas-frontend';
 }

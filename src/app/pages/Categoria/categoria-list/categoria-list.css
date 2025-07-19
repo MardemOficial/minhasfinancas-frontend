@@ -1,0 +1,49 @@
+:host{
+  width: 95%;
+}
+
+table {
+
+  border-collapse: collapse;
+  font-family: var(--default-font);
+  font-size: 14px;
+  color: #333;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+
+  background-color: #fff;
+  width: 100%;
+  /* margin-bottom: 20px; */
+}
+
+th, td {
+
+  padding: 12px 16px;
+  border-bottom: 1px solid #e0e0e0;
+  
+}
+
+th {
+
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 16px;
+  color: #666;
+  text-align: center;
+
+}
+
+td {
+  text-align: left;
+}
+
+tbody tr:last-child td {
+
+  border-bottom: none;
+
+}
+
+tr:hover {
+
+  background-color: #ccc;
+
+}
