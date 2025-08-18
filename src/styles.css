@@ -8,9 +8,9 @@
 
 :root {
     --default-font: 'Roboto', sans-serif;
-    --primary-color: #2563EB;
-    --secondary-color: #BFDBFE;
-    --background-color: #F9FAFB;
+    --primary-color: #2D6097;
+    --secondary-color: #7FA5C9;
+    --background-color: #F8F4F3;
     --default-font-color: #FFF;
     --primary-font-color: #111827;
     --secondary-font-color: #6B7280;
@@ -20,4 +20,49 @@
 a {
     text-decoration: none;
     color: inherit;
+}
+
+
+table {
+
+  border-collapse: collapse;
+  font-family: var(--default-font);
+  font-size: 14px;
+  color: #333;
+  box-shadow: 0 0px 2px #333;
+  background-color: #fff;
+  width: 100%;
+}
+
+th, td {
+
+  padding: 12px 16px;
+  border-bottom: 1px solid #e0e0e0;
+  
+}
+
+th {
+
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 16px;
+  color: #666;
+  text-align: center;
+
+}
+
+td {
+  text-align: left;
+}
+
+tbody tr:last-child td {
+
+  border-bottom: none;
+
+}
+
+tbody > tr:hover {
+
+  background-color: #ccc;
+
 }
