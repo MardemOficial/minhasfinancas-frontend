@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, output } from '@angular/core';
 import { OnInit } from '@angular/core';
 import { Categoria } from '../categoria';
 import { CategoriaService } from '../categoria-service';
@@ -13,9 +13,7 @@ export class CategoriaList implements OnInit {
 
   listaDeCategorias: Categoria[] = [];
 
-  constructor(private categoriaService: CategoriaService){
-
-  }
+  constructor(private categoriaService: CategoriaService){}
 
   ngOnInit() {
     console.log("Iniciando o componente CategoriaList");
