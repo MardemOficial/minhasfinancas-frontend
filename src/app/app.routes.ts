@@ -7,10 +7,10 @@ import { ContaList } from './pages/Conta/conta-list/conta-list';
 import { FornecedorList } from './pages/Fornecedor/fornecedor-list/fornecedor-list';
 
 export const routes: Routes = [
-    {path: '', component: DashboardComponent},
-    {path: 'transacoes', component: TransacaoList},
-    {path: 'subcatetorias', component: SubcategoriaList},
-    {path: 'categorias', component: CategoriaList},
-    {path: 'contas', component: ContaList},
-    {path: 'fornecedores', component: FornecedorList},
+    {path: '', component: DashboardComponent, data: { title: 'Home' }},
+    {path: 'transacoes', component: TransacaoList, data: { title: 'Transações' }},
+    {path: 'subcatetorias', component: SubcategoriaList, data: { title: 'Subcategorias' }},
+    {path: 'categorias', component: CategoriaList, data: { title: 'Categorias' }},
+    {path: 'contas', component: ContaList, data: { title: 'Contas' }},
+    {path: 'fornecedores', component: FornecedorList, data: { title: 'Fornecedores' }},
 ];
