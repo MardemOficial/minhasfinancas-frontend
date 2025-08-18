@@ -1,8 +1,8 @@
 :host {
-    width: 80vw;
+    width: 85vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
 }
