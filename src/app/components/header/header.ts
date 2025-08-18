@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component , input} from '@angular/core';
 
 @Component({
   selector: 'mf-header',
@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrl: './header.css'
 })
 export class HeaderComponent {
-  title: string = 'Minhas Finanças';
+  title = input.required<string>();
 }
